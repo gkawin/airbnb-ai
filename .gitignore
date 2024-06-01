@@ -8,6 +8,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+env/
 build/
 develop-eggs/
 dist/
@@ -58,6 +59,14 @@ target/
 
 # DotEnv configuration
 .env
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # Database
 *.db

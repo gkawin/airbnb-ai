@@ -1,4 +1,47 @@
+# Leveraging Data to Enforce Short-Term Rental Rules
 
+## Introduction:
+In response to Vancouver's housing affordability crisis, regulations now require Airbnb hosts to live on the property they rent out. To enforce these rules, we are developing a data-driven approach using Airbnb data.
+
+
+## Setup
+
+Create virtual environment:
+
+```
+python -m venv venv
+```
+
+Activate the virtual environment:
+* On Windows:
+```
+myenv\Scripts\activate
+```
+* On macOS and Linux:
+
+```
+source venv/bin/activate
+```
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+Install new package if needed:
+
+```
+pip install {package_name}
+pip freeze > requirements.txt
+```
+
+Deactivate the virtual environment:
+```
+deactivate
+```
+
+Don't forget to activate the virtual environment every time you enter the project again.
 
 ## Project Organization
 ```
