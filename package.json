@@ -1,0 +1,14 @@
+{
+  "name": "airbnb-ai",
+  "version": "1.0.0",
+  "description": "In response to Vancouver's housing affordability crisis, regulations now require Airbnb hosts to live on the property they rent out. To enforce these rules, we are developing a data-driven approach using Airbnb data.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2"
+  }
+}
