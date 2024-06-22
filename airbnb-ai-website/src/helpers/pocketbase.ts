@@ -1,8 +1,11 @@
 import { cookies } from "next/headers";
 import Pocketbase from "pocketbase";
+import { TypedPocketBase } from "../../@types/pocketbase-types";
 
 export default async function getPocketbase() {
-  const pb = new Pocketbase(process.env.NEXT_PUBLIC_POCKET_BASE_URL);
+  const pb = new Pocketbase(
+    process.env.NEXT_PUBLIC_POCKET_BASE_URL
+  ) as TypedPocketBase;
   const isServer = typeof window === "undefined";
 
   if (isServer) {
