@@ -41,3 +41,6 @@ next-env.d.ts
 **/pb_migration
 fly.toml
 ./pocketbase/pocketbase
+
+# Sentry Config File
+.env.sentry-build-plugin
