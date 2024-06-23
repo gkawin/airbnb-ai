@@ -6,7 +6,9 @@
     "dev": "next dev & ./pocketbase/pocketbase serve --automigrate",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "fly deploy",
+    "deploy:core": "fly deploy -c ./pocketbase/pocketbase"
   },
   "dependencies": {
     "next": "14.2.4",
