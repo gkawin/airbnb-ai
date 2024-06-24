@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "fly deploy",
+    "deploy": "fly deploy & pnpm deploy:core",
     "deploy:core": "fly deploy -c ./pocketbase/pocketbase"
   },
   "dependencies": {
