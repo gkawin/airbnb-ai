@@ -38,8 +38,6 @@ next-env.d.ts
 
 # flyctl launch added from .gitignore
 **/pb_data
-**/pb_migration
-fly.toml
 pocketbase/pocketbase
 
 # Sentry Config File
