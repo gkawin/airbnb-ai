@@ -1,0 +1,6 @@
+# flyctl launch added from .gitignore
+**/pb_data
+**/pb_migration
+fly.toml
+node_modules
+
