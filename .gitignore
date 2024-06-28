@@ -109,3 +109,5 @@ node_modules/
 # Logs
 logs/
 
+# terraform
+.terraform/.terraform
