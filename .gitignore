@@ -111,3 +111,6 @@ logs/
 
 # terraform
 .terraform/.terraform
+
+# Docker
+.docker/
