@@ -1,0 +1,5 @@
+{
+  "functions": {
+    "codebase": "load_data_to_firestore"
+  }
+}
