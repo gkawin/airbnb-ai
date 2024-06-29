@@ -1,0 +1,30 @@
+{
+  "name": "airbnb-ai",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "functions/**"
+  ],
+  "scripts": {
+    "bootstrap": "pnpm -r install",
+    "dev": "pnpm -r --parallel --filter='./apps/*' dev & firebase emulators:start --export-on-exit=./__sample_data__ --import=./__sample_data__"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.6.0",
+    "typescript": "^5.5.2"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@firebase/app-compat",
+        "@firebase/app-types"
+      ]
+    }
+  }
+}

@@ -1,5 +1,53 @@
 {
-  "functions": {
-    "codebase": "load_data_to_firestore"
+  "functions": [
+    {
+      "source": "functions/load_data_to_firestore",
+      "codebase": "load_data_to_firestore",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ],
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "emulators": {
+    "auth": {
+      "host": "127.0.0.1",
+      "port": 9099
+    },
+    "database": {
+      "host": "127.0.0.1",
+      "port": 9000
+    },
+    "functions": {
+      "host": "127.0.0.1",
+      "port": 5001
+    },
+    "firestore": {
+      "host": "127.0.0.1",
+      "port": 8080
+    },
+    "hosting": {
+      "host": "127.0.0.1",
+      "port": 5002
+    },
+    "storage": {
+      "host": "127.0.0.1",
+      "port": 9199
+    },
+    "ui": {
+      "host": "127.0.0.1",
+      "enabled": true,
+      "port": 4041
+    },
+    "pubsub": {
+      "port": "8085"
+    },
+    "singleProjectMode": true
   }
 }
