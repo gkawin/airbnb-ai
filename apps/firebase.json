@@ -1,16 +1,4 @@
 {
-  "functions": [
-    {
-      "source": "functions/load_data_to_firestore",
-      "codebase": "load_data_to_firestore",
-      "ignore": [
-        "node_modules",
-        ".git",
-        "firebase-debug.log",
-        "firebase-debug.*.log"
-      ]
-    }
-  ],
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
